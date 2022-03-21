@@ -893,6 +893,13 @@ blockquote {
   letter-spacing: 2px;
 }
 
+.font-alt-subtitle {
+  font-family: montserrat;
+  font-weight: 600;
+  background-color: #111;
+  padding: 0px 0.5rem;
+}
+
 .font-serif {
   font-family: Volkhov, "Times New Roman", sans-serif;
   font-style: italic;
@@ -913,7 +920,7 @@ blockquote {
   font-weight: 400;
   font-size: 30px;
   color: #111;
-  margin: 0 0 70px;
+  margin: 0 0 40px;
 }
 
 .module-subtitle {
