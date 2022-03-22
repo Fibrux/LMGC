@@ -893,11 +893,10 @@ blockquote {
   letter-spacing: 2px;
 }
 
-.font-alt-subtitle {
-  font-family: montserrat;
-  font-weight: 600;
-  background-color: #111;
-  padding: 0px 0.5rem;
+.font-times {
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .font-serif {
@@ -2931,4 +2930,14 @@ Google map
   .works-grid-5 .work-item {
     width: 100%;
   }
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+    font-size: 13px;
 }
